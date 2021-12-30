@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="2" name="CucumberRunnerTest" time="32.23" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.1+1"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/kalyanparam/JunitReport/AutomationFramework"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/kalyanparam/JunitReport/AutomationFramework"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.1+1"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/w8/sg15p9yn719fcfhf9r9rw9z00000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/kalyanparam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.8.4/libexec/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.8.4/libexec/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/kalyanparam"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="kalyanparam"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.8.4/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk/17.0.1_1/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.8.4/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname="CucumberRunnerTest" name="runScenario" time="12.785">
+    <failure message="
+The following assertion failed:
+1) 
+expected: &quot;Login Successfully&quot;
+ but was: &quot;Login Successfull&quot;
+at BaseClass.lambda$static$4(BaseClass.java:96)
+" type="org.assertj.core.api.SoftAssertionError">org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+expected: &quot;Login Successfully&quot;
+ but was: &quot;Login Successfull&quot;
+at BaseClass.lambda$static$4(BaseClass.java:96)
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at org.assertj.core.api.SoftAssertionsProvider.assertSoftly(SoftAssertionsProvider.java:120)
+	at org.assertj.core.api.SoftAssertions.assertSoftly(SoftAssertions.java:162)
+	at basePack.BaseClass.lambda$static$5(BaseClass.java:93)
+	at Steps.LoginSteps.iAmOnTheHomePage(LoginSteps.java:54)
+	at ✽.I am on the HomePage(file:///Users/kalyanparam/JunitReport/AutomationFramework/src/main/resources/features/Login.feature:8)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1888ff2c
+
+@Login @Smoke
+Scenario Outline: To Test the combinations of all data of username and password &amp;#27;[90m# src/main/resources/features/Login.feature:12&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on Mercury application&amp;#27;[0m                                             &amp;#27;[90m# Steps.LoginSteps.login()&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest1&amp;#27;[0m&amp;#27;[32m and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest1&amp;#27;[0m                                                 &amp;#27;[90m# Steps.LoginSteps.iEnterUserNameAndPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on submit button&amp;#27;[0m                                                  &amp;#27;[90m# Steps.LoginSteps.iClickOnSubmitButton()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI am on the HomePage&amp;#27;[0m                                                     &amp;#27;[90m# Steps.LoginSteps.iAmOnTheHomePage()&amp;#27;[0m
+      &amp;#27;[31morg.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+expected: &quot;Login Successfully&quot;
+ but was: &quot;Login Successfull&quot;
+at BaseClass.lambda$static$4(BaseClass.java:96)
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at org.assertj.core.api.SoftAssertionsProvider.assertSoftly(SoftAssertionsProvider.java:120)
+	at org.assertj.core.api.SoftAssertions.assertSoftly(SoftAssertions.java:162)
+	at basePack.BaseClass.lambda$static$5(BaseClass.java:93)
+	at Steps.LoginSteps.iAmOnTheHomePage(LoginSteps.java:54)
+	at ✽.I am on the HomePage(file:///Users/kalyanparam/JunitReport/AutomationFramework/src/main/resources/features/Login.feature:8)
+&amp;#27;[0m
+</system-out>
+    <system-err>Dec 30, 2021 5:05:02 PM io.cucumber.testng.TestNGCucumberRunner &lt;init&gt;
+WARNING: By default Cucumber is running in --non-strict mode.
+This default will change to --strict and --non-strict will be removed.
+You can use --strict or @CucumberOptions(strict = true) to suppress this warning
+SLF4J: Failed to load class &quot;org.slf4j.impl.StaticLoggerBinder&quot;.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 6970
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 30, 2021 5:05:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="CucumberRunnerTest" name="runScenario" time="9.844">
+    <failure message="
+The following assertion failed:
+1) 
+expected: &quot;Login Successfully&quot;
+ but was: &quot;Login Successfull&quot;
+at BaseClass.lambda$static$4(BaseClass.java:96)
+" type="org.assertj.core.api.SoftAssertionError">org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+expected: &quot;Login Successfully&quot;
+ but was: &quot;Login Successfull&quot;
+at BaseClass.lambda$static$4(BaseClass.java:96)
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at org.assertj.core.api.SoftAssertionsProvider.assertSoftly(SoftAssertionsProvider.java:120)
+	at org.assertj.core.api.SoftAssertions.assertSoftly(SoftAssertions.java:162)
+	at basePack.BaseClass.lambda$static$5(BaseClass.java:93)
+	at Steps.LoginSteps.iAmOnTheHomePage(LoginSteps.java:54)
+	at ✽.I am on the HomePage(file:///Users/kalyanparam/JunitReport/AutomationFramework/src/main/resources/features/Login.feature:8)
+</failure>
+    <system-out>
+@Login @Smoke
+Scenario Outline: To Test the combinations of all data of username and password &amp;#27;[90m# src/main/resources/features/Login.feature:13&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on Mercury application&amp;#27;[0m                                             &amp;#27;[90m# Steps.LoginSteps.login()&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest2&amp;#27;[0m&amp;#27;[32m and &amp;#27;[0m&amp;#27;[32m&amp;#27;[1mtest2&amp;#27;[0m                                                 &amp;#27;[90m# Steps.LoginSteps.iEnterUserNameAndPassword(java.lang.String,java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on submit button&amp;#27;[0m                                                  &amp;#27;[90m# Steps.LoginSteps.iClickOnSubmitButton()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI am on the HomePage&amp;#27;[0m                                                     &amp;#27;[90m# Steps.LoginSteps.iAmOnTheHomePage()&amp;#27;[0m
+      &amp;#27;[31morg.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+expected: &quot;Login Successfully&quot;
+ but was: &quot;Login Successfull&quot;
+at BaseClass.lambda$static$4(BaseClass.java:96)
+
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at org.assertj.core.api.SoftAssertionsProvider.assertSoftly(SoftAssertionsProvider.java:120)
+	at org.assertj.core.api.SoftAssertions.assertSoftly(SoftAssertions.java:162)
+	at basePack.BaseClass.lambda$static$5(BaseClass.java:93)
+	at Steps.LoginSteps.iAmOnTheHomePage(LoginSteps.java:54)
+	at ✽.I am on the HomePage(file:///Users/kalyanparam/JunitReport/AutomationFramework/src/main/resources/features/Login.feature:8)
+&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 41226
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 30, 2021 5:05:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="CucumberRunnerTest" name="runScenario" time="9.601"/>
+</testsuite>

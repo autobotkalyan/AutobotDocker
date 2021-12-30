@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: CucumberRunnerTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 32.708 sec <<< FAILURE!
+runScenario(CucumberRunnerTest)  Time elapsed: 12.785 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+expected: "Login Successfully"
+ but was: "Login Successfull"
+at BaseClass.lambda$static$4(BaseClass.java:96)
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at org.assertj.core.api.SoftAssertionsProvider.assertSoftly(SoftAssertionsProvider.java:120)
+	at org.assertj.core.api.SoftAssertions.assertSoftly(SoftAssertions.java:162)
+	at basePack.BaseClass.lambda$static$5(BaseClass.java:93)
+	at Steps.LoginSteps.iAmOnTheHomePage(LoginSteps.java:54)
+	at ✽.I am on the HomePage(file:///Users/kalyanparam/JunitReport/AutomationFramework/src/main/resources/features/Login.feature:8)
+
+runScenario(CucumberRunnerTest)  Time elapsed: 9.844 sec  <<< FAILURE!
+org.assertj.core.api.SoftAssertionError: 
+The following assertion failed:
+1) 
+expected: "Login Successfully"
+ but was: "Login Successfull"
+at BaseClass.lambda$static$4(BaseClass.java:96)
+	at org.assertj.core.error.AssertionErrorCreator.multipleSoftAssertionsError(AssertionErrorCreator.java:100)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:37)
+	at org.assertj.core.api.AbstractSoftAssertions.assertAll(AbstractSoftAssertions.java:42)
+	at org.assertj.core.api.SoftAssertionsProvider.assertSoftly(SoftAssertionsProvider.java:120)
+	at org.assertj.core.api.SoftAssertions.assertSoftly(SoftAssertions.java:162)
+	at basePack.BaseClass.lambda$static$5(BaseClass.java:93)
+	at Steps.LoginSteps.iAmOnTheHomePage(LoginSteps.java:54)
+	at ✽.I am on the HomePage(file:///Users/kalyanparam/JunitReport/AutomationFramework/src/main/resources/features/Login.feature:8)
+
